@@ -23,7 +23,7 @@ $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 $f(n) \in O(g(n)) \iff \exists c > 0, \exists n_{0} > 0$ such that $f(n) \leq c * g(n), \forall n \geq n_{0}$
 
 **Little O defintion**
-
+$f(n) \in o(g(n)) \iff \forall c > 0, \exists n_{0} > 0$ such that $f(n) \leq c * g(n), \forall n \geq n_{0}$
 ## Sources
 
 ## Plagarism Statement
