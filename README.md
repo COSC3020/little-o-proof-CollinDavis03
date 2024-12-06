@@ -30,7 +30,7 @@ From the definition of little o, we know that any constant c > 0, there exists $
 
 $f(n) < c * g(n), \forall n \geq n_{0}$
 
-in particular, we can choose some constant c > 0, and the above condition holds. Since $f(n) < c * g(n) \Rightarrow f(n) \leq c * g(n)$, this satisfies the condition for $f(n) \in O(g(n)), where at least one c > 0 works. 
+in particular, we can choose some constant c > 0, and the above condition holds. Since $f(n) < c * g(n) \Rightarrow f(n) \leq c * g(n)$, this satisfies the condition for $f(n) \in O(g(n))$, where at least one c > 0 works. 
 
 Thus by definition of Big O, we conclude 
 
