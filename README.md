@@ -17,13 +17,27 @@ might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
-## Proof
+## Defintions
 
-**Big O Defintion** 
+**Big O Definition** 
 $f(n) \in O(g(n)) \iff \exists c > 0, \exists n_{0} > 0$ such that $f(n) \leq c * g(n), \forall n \geq n_{0}$
 
-**Little O defintion**
-$f(n) \in o(g(n)) \iff \forall c > 0, \exists n_{0} > 0$ such that $f(n) \leq c * g(n), \forall n \geq n_{0}$
+**Little O Definition**
+$f(n) \in o(g(n)) \iff \forall c > 0, \exists n_{0} > 0$ such that $f(n) < c * g(n), \forall n \geq n_{0}$
+
+## Proof
+From the definition of little o, we know that any constant c > 0, there exists $n_{0} > 0$ such that: 
+
+$f(n) < c * g(n), \forall n \geq n_{0}$
+
+in particular, we can choose some constant c > 0, and the above condition holds. Since $f(n) < c * g(n) \Rightarrow f(n) \leq c * g(n)$, this satisfies the condition for $f(n) \in O(g(n)), where at least one c > 0 works. 
+
+Thus by definition of Big O, we conclude 
+
+$f(n) \in O(g(n))$
+
 ## Sources
+The only source I used was JamesOzzyBurn's repo to make sure I did it right, which I did. The only thing I missed was spelling the right arrow markdown part wrong. Other than that, I just used the resources provided in class to solve this and checked Jame's repo to make sure I did it right. 
 
 ## Plagarism Statement
+“I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
